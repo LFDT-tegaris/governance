@@ -1,0 +1,42 @@
+teams:
+  - name: bots
+    maintainers:
+      - thelinuxfoundation
+    members:
+      - lfdt-bot
+  - name: lfdt-staff
+    maintainers:
+      - jwagantall
+      - ryjones
+      - thelinuxfoundation
+    members: []
+  - name: security-managers
+    maintainers:
+      - jwagantall
+      - ryjones
+    members: []
+  - name: tegaris-maintainers
+    maintainers:
+      - gnv-zeeve
+    members:
+      - Nitesh-Zeeve
+      - supravat-zeeve
+repositories:
+  - name: .github
+    teams:
+      lfdt-staff: maintain
+      security-managers: read
+      tegaris-maintainers: maintain
+    visibility: public
+  - name: governance
+    teams:
+      lfdt-staff: maintain
+      security-managers: read
+      tegaris-maintainers: maintain
+    visibility: public
+  - name: tegaris
+    teams:
+      lfdt-staff: maintain
+      security-managers: read
+      tegaris-maintainers: maintain
+    visibility: public
